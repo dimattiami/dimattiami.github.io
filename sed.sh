@@ -1,6 +1,6 @@
 #!/bin/bash
 
-if [ $# -ne 3 ]; then
+if [ $# -ne 4 ]; then
   echo "Usage: $0 <your name> <your email> <your phone number> <company name>"
   exit 1
 fi
