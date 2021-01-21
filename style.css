@@ -5,8 +5,12 @@
 }
 
 body {
-  margin-left: 5%;
-  margin-right: 5%;
+  margin: auto;
+  width: 930px;
+}
+
+#container {
+  margin: 5px 10px 0px;
 }
 
 #header {
@@ -38,12 +42,12 @@ body {
 #main {
   height: 100%;
   padding-right: 10px;
-  width: 75%;
+  width: 77%;
 }
 
 #sidebar {
   height: 100%;
-  width: 25%;
+  width: 23%;
 }
 #introduction {
   text-align: justify;
