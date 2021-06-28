@@ -1,90 +1,57 @@
-* {
-  word-wrap: normal;
-  font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial,
-    sans-serif;
+html {
+  display: flex;
 }
-
 body {
+  padding: 20px 10px;
   margin: auto;
-  width: 930px;
+  max-width: 900px;
 }
 
-#container {
-  margin: 5px 10px 0px;
+div.badges {
+  text-align: center;
+  user-select: none;
+  margin-bottom: 15px;
 }
 
-#header {
+img.aws-badge {
+  width: 150px;
+}
+
+h1.title {
+  text-align: center;
+}
+
+.projects {
   display: flex;
-
-  border-bottom: 1px solid black;
-}
-#header > .name {
-  width: 50%;
-  display: table-cell;
-  vertical-align: bottom;
-  font-size: 40px;
-  font-weight: bold;
-}
-.contact-info {
-  text-align: right;
-  margin: 0px;
-  width: 50%;
-}
-.contact-info > p {
-  margin: 0px;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
-#main-split {
-  display: flex;
-  height: 100%;
-}
-
-#main {
-  height: 100%;
-  padding-right: 10px;
-  width: 77%;
-}
-
-#sidebar {
-  height: 100%;
-  width: 23%;
-}
-#introduction {
-  text-align: justify;
-  display: flex;
-}
-
-#introduction > div {
+.project-card {
   display: inline-block;
-  width: 50%;
-  padding-right: 10px;
-}
-#introduction > div > * {
-  margin: 0px;
-}
-
-.position > .position-title {
-  margin: 0px;
-  font-weight: bold;
-}
-
-.position > .position-title > .date {
-  float: right;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px;
+  background-color: rgb(238, 238, 238);
+  width: 300px;
+  color: inherit;
+  text-decoration: inherit;
+  user-select: none;
+  box-shadow: 5px 5px 5px grey;
 }
 
-.responsibilities {
-  margin: 0px;
-  padding-left: 20px;
+.project-card p {
+  margin: 20px;
 }
 
-.sidebar-block > h1 {
-  margin: 0px;
+.project-card h1 {
+  text-align: center;
 }
-.sidebar-block > h2 {
-  margin: 0px;
-}
-.sidebar-block > .skills {
-  margin: 0px;
-  list-style-type: none;
-  padding-left: 0px;
+
+ul.misc-projects {
+  margin: auto;
+  max-width: 625px;
+  columns: 2;
+  -webkit-columns: 2;
+  -moz-columns: 2;
 }

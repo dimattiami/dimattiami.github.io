@@ -1,0 +1,90 @@
+* {
+  word-wrap: normal;
+  font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial,
+    sans-serif;
+}
+
+body {
+  margin: auto;
+  width: 930px;
+}
+
+#container {
+  margin: 5px 10px 0px;
+}
+
+#header {
+  display: flex;
+
+  border-bottom: 1px solid black;
+}
+#header > .name {
+  width: 50%;
+  display: table-cell;
+  vertical-align: bottom;
+  font-size: 40px;
+  font-weight: bold;
+}
+.contact-info {
+  text-align: right;
+  margin: 0px;
+  width: 50%;
+}
+.contact-info > p {
+  margin: 0px;
+}
+
+#main-split {
+  display: flex;
+  height: 100%;
+}
+
+#main {
+  height: 100%;
+  padding-right: 10px;
+  width: 77%;
+}
+
+#sidebar {
+  height: 100%;
+  width: 23%;
+}
+#introduction {
+  text-align: justify;
+  display: flex;
+}
+
+#introduction > div {
+  display: inline-block;
+  width: 50%;
+  padding-right: 10px;
+}
+#introduction > div > * {
+  margin: 0px;
+}
+
+.position > .position-title {
+  margin: 0px;
+  font-weight: bold;
+}
+
+.position > .position-title > .date {
+  float: right;
+}
+
+.responsibilities {
+  margin: 0px;
+  padding-left: 20px;
+}
+
+.sidebar-block > h1 {
+  margin: 0px;
+}
+.sidebar-block > h2 {
+  margin: 0px;
+}
+.sidebar-block > .skills {
+  margin: 0px;
+  list-style-type: none;
+  padding-left: 0px;
+}
